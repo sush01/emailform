@@ -12,4 +12,8 @@ export class AppComponent {
   title = 'emailform';
   email:string= '';
 
+  onSubmit(){
+    console.log(this.email);
+  }
+
 }
